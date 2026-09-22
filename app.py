@@ -576,11 +576,11 @@ def add_escalation(
 def create_gemini_llm():
 
     return LLM(
-
-        model=f"gemini/{GEMINI_MODEL}",
-
+        
+        model="gemini/gemini-2.5-flash",
+        
         api_key=GEMINI_API_KEY,
-
+        
         temperature=0.2
     )
 
