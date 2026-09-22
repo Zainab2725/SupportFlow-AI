@@ -1,0 +1,98 @@
+[
+    {
+        "faiss_id": 0,
+        "id": "company_info_001",
+        "category": "company_information",
+        "title": "Company Information",
+        "content": "NovaStore is an online electronics store.\n        The company sells smartphones, laptops, tablets, headphones,\n        smartwatches, and accessories.\n        Customer support is available Monday to Saturday, 9 AM to 6 PM.\n        Support channels include website chat, email, and phone.\n        The company uses USD as its currency.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 1,
+        "id": "shipping_001",
+        "category": "shipping",
+        "title": "Shipping Policy",
+        "content": "Standard shipping takes 3 to 5 business days and costs $5.\n        Standard shipping is free for orders above $100.\n        Express shipping takes 1 to 2 business days and costs $15.\n        Delivery estimates are not guaranteed.\n        Delays may occur because of weather, courier problems,\n        holidays, or incorrect addresses.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 2,
+        "id": "returns_001",
+        "category": "returns",
+        "title": "Returns Policy",
+        "content": "Customers can request a return within 30 days of delivery.\n        The product must be in reasonable condition and include\n        original accessories and packaging where applicable.\n        Products damaged through customer misuse are not eligible.\n        Downloadable digital products and gift cards are non-returnable.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 3,
+        "id": "refund_001",
+        "category": "refunds",
+        "title": "Refund Policy",
+        "content": "After an approved return, the refund is issued to the\n        original payment method.\n        Refund processing normally takes 5 to 10 business days.\n        Shipping fees may not be refundable depending on the reason\n        for the return.\n        The agent must never promise an exact refund date unless\n        the system confirms it.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 4,
+        "id": "cancellation_001",
+        "category": "cancellation",
+        "title": "Cancellation Policy",
+        "content": "Customers may cancel an order before it has been shipped.\n        If the order has already shipped, cancellation is not guaranteed.\n        The customer may need to use the return process after delivery.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 5,
+        "id": "damage_001",
+        "category": "damaged_product",
+        "title": "Damaged Product Policy",
+        "content": "If a customer receives a damaged product, the agent should\n        apologize, request the order number, request photos if required,\n        check the order, create or escalate a damage claim, and explain\n        the next step.\n        The agent must not blame the customer or courier without evidence.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 6,
+        "id": "warranty_001",
+        "category": "warranty",
+        "title": "Warranty Policy",
+        "content": "Products include a manufacturer warranty where specified\n        on the product page.\n        Warranty generally covers manufacturing defects and hardware\n        failures covered by the manufacturer.\n        Warranty generally does not cover accidental damage,\n        liquid damage, unauthorized modifications, or normal cosmetic wear.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 7,
+        "id": "security_001",
+        "category": "customer_security",
+        "title": "Customer Information Security",
+        "content": "The agent must never expose full payment-card numbers,\n        passwords, authentication codes, or another customer's\n        private information.\n        Customer identity should be verified before accessing\n        sensitive order information.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 8,
+        "id": "hallucination_001",
+        "category": "agent_policy",
+        "title": "No Fabricated Information",
+        "content": "The agent must answer using information from the approved\n        company knowledge base.\n        The agent must never invent prices, discounts, delivery dates,\n        refund amounts, warranty terms, or order statuses.\n        If required information is unavailable, the agent should say\n        that it cannot confirm the information and ask for the required\n        information or escalate the case.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 9,
+        "id": "discount_001",
+        "category": "agent_policy",
+        "title": "Discount Policy",
+        "content": "The agent may only offer officially approved discounts.\n        The agent must never invent a discount code.\n        If no approved discount is available, the agent should clearly\n        tell the customer that no approved discount is currently available.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 10,
+        "id": "escalation_001",
+        "category": "agent_policy",
+        "title": "Escalation Policy",
+        "content": "The agent should escalate cases when the customer requests\n        a human agent, a payment dispute occurs, fraud is suspected,\n        there is an account security issue, a legal complaint is made,\n        a serious safety issue is reported, a refund exception is requested,\n        the knowledge base does not contain the required information,\n        or a complex issue cannot be resolved.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    },
+    {
+        "faiss_id": 11,
+        "id": "professional_001",
+        "category": "agent_policy",
+        "title": "Professional Communication",
+        "content": "The agent must remain professional and must not argue with\n        customers.\n        If a customer disagrees with a policy, the agent should\n        acknowledge the concern, explain the applicable policy,\n        and provide available options.",
+        "embedding_model": "all-MiniLM-L6-v2"
+    }
+]
