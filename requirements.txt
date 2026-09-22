@@ -1,6 +1,5 @@
 streamlit
-crewai
-google-generativeai
+crewai[google-genai]
 sentence-transformers
 faiss-cpu
 pandas
