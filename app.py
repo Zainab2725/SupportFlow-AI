@@ -16,7 +16,7 @@ from crewai.tools import BaseTool
 # ============================================================
 
 st.set_page_config(
-    page_title="NovaStore Customer Support AI",
+    page_title="Raabta AI - Customer Support",
     page_icon="🤖",
     layout="wide"
 )
@@ -200,7 +200,7 @@ class CompanyKnowledgeBaseTool(BaseTool):
     name: str = "company_knowledge_base"
 
     description: str = """
-    Search NovaStore's official company knowledge base.
+    Search Raabta AI's official company knowledge base.
 
     Use this tool for questions about:
 
@@ -366,7 +366,7 @@ class OrderLookupTool(BaseTool):
     name: str = "order_lookup"
 
     description: str = """
-    Search the NovaStore Excel order database.
+    Search the Raabta AI Excel order database.
 
     Use this tool when the customer asks about a specific order.
 
@@ -604,7 +604,7 @@ def create_customer_support_agent():
         """,
 
         backstory="""
-        You are NovaStore's Customer Support AI.
+        You are Raabta AI's Customer Support AI.
 
         Your job is to help customers with:
 
@@ -908,7 +908,7 @@ def process_customer_message(
 
 with st.sidebar:
 
-    st.title("🤖 NovaStore")
+    st.title("🤖 Raabta AI")
 
     st.caption(
         "Single-Agent Customer Support AI"
@@ -971,7 +971,7 @@ with st.sidebar:
 # ============================================================
 
 st.title(
-    "🤖 NovaStore Customer Support AI"
+    "🤖 Raabta AI Customer Support AI"
 )
 
 st.write(
@@ -1032,7 +1032,7 @@ if user_message:
     with st.chat_message("assistant"):
 
         with st.spinner(
-            "NovaStore AI is thinking..."
+            "Raabta AI AI is thinking..."
         ):
 
             response = process_customer_message(
