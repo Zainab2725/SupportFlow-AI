@@ -971,7 +971,7 @@ with st.sidebar:
 # ============================================================
 
 st.title(
-    "🤖 Raabta AI Customer Support AI"
+    "🤖 Raabta AI - Customer Support"
 )
 
 st.write(
